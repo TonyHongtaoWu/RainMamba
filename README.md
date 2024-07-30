@@ -295,6 +295,7 @@ RainMamba achieved state-of-the-art on four video deraining datasets.
 | **LWDDS**        | [Google Drive](https://drive.google.com/file/d/1NXfjkdR4FOBMrujMARQvaC_anjP1EVsV/view?usp=drive_link)   | [OneDrive](https://hkustgz-my.sharepoint.com/:f:/g/personal/hwu375_connect_hkust-gz_edu_cn/Ep18opx9I1BNmFcVZYq_QPoBTyAQk8w4QjGB3NTa5lFamw?e=ck07bs)   |
 | **RainVID&SS**    | [Google Drive](https://drive.google.com/file/d/1q7AL8vjoEP1SETLyES4bzTV1YQr2joZa/view?usp=drive_link)                  | [OneDrive](https://hkustgz-my.sharepoint.com/:f:/g/personal/hwu375_connect_hkust-gz_edu_cn/Ele2i_Rf8D5PunqYs3837KEBaL1cM-sasiTVFoirQvY_cQ?e=xrOWJa)                  |
 | **RainSynAll100**| [Google Drive](https://drive.google.com/file/d/1ljRbqgpUdN-4he5bLqtiMp-i-tV1TDYT/view?usp=drive_link)                 | [OneDrive](https://hkustgz-my.sharepoint.com/:f:/g/personal/hwu375_connect_hkust-gz_edu_cn/EosjvMAr64BDrhhMbbwlbIQB65jgVFTN-6W3G8EMXE0J7Q?e=gZ2TTT)                 |
+| **NTURain**| [Google Drive](https://drive.google.com/file/d/1Yt_0k_OVrBkC1n_F8SeOz_9V160o9UOc/view?usp=sharing)                 | [OneDrive](https://hkustgz-my.sharepoint.com/:f:/g/personal/hwu375_connect_hkust-gz_edu_cn/ElAZl-2NbL5InoSvTd-hUygBm7maZTEB7tqA76jKI1pLew?e=rBIlhf)                 |
 
 
 
