@@ -318,7 +318,7 @@ If you have any questions or suggestion about our project, please feel free to c
 
 <h2 id="acknowledgement">🤗 Acknowledgement</h2>
 
-This code is based on [MMEditing](https://github.com/open-mmlab/mmagic), [Vim](https://github.com/hustvl/Vim), [gilbert](https://github.com/jakubcerveny/gilbert), [LGRNet](https://github.com/bio-mlhui/lgrnet). Thank them for their outstanding work. 
+This code is based on [MMEditing](https://github.com/open-mmlab/mmagic), [Vim](https://github.com/hustvl/Vim), [Vivim](https://github.com/scott-yjyang/Vivim) , [gilbert](https://github.com/jakubcerveny/gilbert), [LGRNet](https://github.com/bio-mlhui/lgrnet). Thank them for their outstanding work. 
 
 Thank Huihui Xu and Yijun Yang for their help in this work.
 
