@@ -7,9 +7,10 @@
 
 <p align="center">Hongtao Wu, Yijun Yang, Huihui Xu, Weiming Wang, Jinni Zhou, Lei Zhu<sup>:email:</sup></p>
 <p align="center"> 
-  ArXivPreprint | 
+   <a href="https://arxiv.org/abs/2407.21773">ArXivPreprint</a>  | 
   <a href="https://openreview.net/forum?id=SQreBrpK2c">OpenReview</a> 
 </p>
+
 
 This repository is the official implementation of the paper titled 'RainMamba: Enhanced Locality Learning with State Space Models for Video Deraining'. 
 
@@ -310,7 +311,12 @@ RainMamba achieved state-of-the-art on four video deraining datasets.
 
 If you find this repository helpful to your research, please consider citing the following:
 ```
-
+@article{wu2024rainmamba,
+  title = {RainMamba: Enhanced Locality Learning with State Space Models for Video Deraining},
+  author = {Hongtao Wu and Yijun Yang and Huihui Xu and Weiming Wang and Jinni Zhou and Lei Zhu},
+  journal={arXiv preprint arXiv:2407.21773},
+  year = {2024},
+}
 ```
 If you have any questions or suggestion about our project, please feel free to contact us by email at hwu375@connect.hkust-gz.edu.cn.
 
