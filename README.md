@@ -136,14 +136,14 @@ Download four datasets from their websites and modify the training dataset path 
 
 ```shell
 cd code/VRDS
-CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/derainers/RainMamba/VRDS.py 4
+CUDA_VISIBLE_DEVICES=0,1,2,3 bash ./tools/dist_train.sh configs/derainers/RainMamba/VRDS.py 4
 ```
 
 **2️⃣ LWDDS dataset** 
 
 ```shell
 cd code/LWDDS
-CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/derainers/RainMamba/Waterdrop.py 4
+CUDA_VISIBLE_DEVICES=0,1,2,3 bash ./tools/dist_train.sh configs/derainers/RainMamba/Waterdrop.py 4
 ```
 
 **3️⃣ RainVID&SS dataset** 
@@ -151,7 +151,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/derainers/RainMamba/W
 
 ```shell
 cd  code/RainVIDSS
-CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/derainers/RainMamba/RainVIDSS.py 4
+CUDA_VISIBLE_DEVICES=0,1,2,3 bash ./tools/dist_train.sh configs/derainers/RainMamba/RainVIDSS.py 4
 ```
 
 
@@ -160,7 +160,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/derainers/RainMamba/R
 
 ```shell
 cd code/RainSynAll100
-CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/derainers/RainMamba/RainSynAll100.py 4
+CUDA_VISIBLE_DEVICES=0,1,2,3 bash ./tools/dist_train.sh configs/derainers/RainMamba/RainSynAll100.py 4
 ```
 
 
