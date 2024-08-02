@@ -8,7 +8,7 @@ from ..builder import build_backbone, build_loss
 from ..registry import MODELS
 import torch
 import torch.nn.functional as F
-from torchvision.models.vgg import vgg16
+from torchvision.models.vgg import vgg16,vgg19
 import torch.nn as nn
 import random
 import torchvision.transforms as transforms
