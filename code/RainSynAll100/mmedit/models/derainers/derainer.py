@@ -431,3 +431,21 @@ class PerpetualLoss(nn.Module):
 
         return sum(loss) / len(loss)
 
+
+
+
+class PerceptualLoss2(nn.Module):
+    def __init__(self):
+        super(PerceptualLoss2, self).__init__()
+        self.L1 = nn.L1Loss()
+        vgg = vgg19(pretrained=True).eval()
+        for param in vgg.parameters():
+            param.requires_grad = False
+        self.loss_net1 = nn.Sequential(*list(vgg.features)[:1]).eval()
+        self.loss_net3 = nn.Sequential(*list(vgg.features)[:3]).eval()
+
+    def forward(self, x, y):
+        loss1 = self.L1(self.loss_net1(x), self.loss_net1(y))
+        loss3 = self.L1(self.loss_net3(x), self.loss_net3(y))        
+        loss = 0.5* loss1 + 0.5 * loss3 
+        return loss
