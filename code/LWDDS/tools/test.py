@@ -13,7 +13,7 @@ from mmedit.core.distributed_wrapper import DistributedDataParallelWrapper
 from mmedit.datasets import build_dataloader, build_dataset
 from mmedit.models import build_model
 from mmedit.utils import setup_multi_processes
-from thop import profile 
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description='mmediting tester')
