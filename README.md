@@ -177,7 +177,7 @@ You can use the following command with 1 GPU to test your trained model `xxx.pth
 
 ```shell
 cd code/VRDS
-CUDA_VISIBLE_DEVICES=0 ./tools/dist_test.sh configs/derainers/RainMamba/VRDS.py "VRDS.pth" 1 --save-path '../results/VRDS/'
+CUDA_VISIBLE_DEVICES=0 bash ./tools/dist_test.sh configs/derainers/RainMamba/VRDS.py "VRDS.pth" 1 --save-path '../results/VRDS/'
 ```
 
 
@@ -185,7 +185,7 @@ CUDA_VISIBLE_DEVICES=0 ./tools/dist_test.sh configs/derainers/RainMamba/VRDS.py 
 
 ```shell
 cd code/LWDDS
-CUDA_VISIBLE_DEVICES=0 ./tools/dist_test.sh configs/derainers/RainMamba/Waterdrop.py "LWDDS.pth" 1 --save-path '../results/LWDDS/'
+CUDA_VISIBLE_DEVICES=0 bash ./tools/dist_test.sh configs/derainers/RainMamba/Waterdrop.py "LWDDS.pth" 1 --save-path '../results/LWDDS/'
 ```
 
 
@@ -194,7 +194,7 @@ CUDA_VISIBLE_DEVICES=0 ./tools/dist_test.sh configs/derainers/RainMamba/Waterdro
 
 ```shell
 cd  code/RainVIDSS
-CUDA_VISIBLE_DEVICES=0 ./tools/dist_test.sh configs/derainers/RainMamba/RainVIDSS.py "RainVIDSS.pth" 1 --save-path '../results/RainVIDSS/'
+CUDA_VISIBLE_DEVICES=0 bash ./tools/dist_test.sh configs/derainers/RainMamba/RainVIDSS.py "RainVIDSS.pth" 1 --save-path '../results/RainVIDSS/'
 ```
 
 
@@ -203,7 +203,7 @@ CUDA_VISIBLE_DEVICES=0 ./tools/dist_test.sh configs/derainers/RainMamba/RainVIDS
 
 ```shell
 cd code/RainSynAll100
-CUDA_VISIBLE_DEVICES=0 ./tools/dist_test.sh configs/derainers/RainMamba/RainSynAll100.py "RainSynAll100.pth" 1 --save-path '../results/RainSynAll100/'
+CUDA_VISIBLE_DEVICES=0 bash ./tools/dist_test.sh configs/derainers/RainMamba/RainSynAll100.py "RainSynAll100.pth" 1 --save-path '../results/RainSynAll100/'
 ```
 
 
