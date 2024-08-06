@@ -14,6 +14,7 @@
 
 This repository is the official implementation of the paper titled '[RainMamba: Enhanced Locality Learning with State Space Models for Video Deraining](https://arxiv.org/abs/2407.21773)'. 
 
+If you like this work, please give us a star ⭐ on GitHub.
 
 <hr />
 
