@@ -1,7 +1,7 @@
 
 <div align="center">
   <h1> :umbrella: RainMamba [ACM MM'24 Oral] </h1>
-  <img src="./img/Profile.jpg" width="80" height="80">
+  <img src="./img/Profile.jpg" width="100" height="100">
   <h2>RainMamba: Enhanced Locality Learning with State Space Models <br> for Video Deraining</h2>
 </div>
 
@@ -33,6 +33,10 @@ If you like this work, please give us a star ⭐ on GitHub.
 ### • Spatio-temporal scanning mechanisms
 
 ![image](./img/twoscans.gif)
+
+### • Model efficiency and effectiveness
+
+![image](./img/efficiency.png)
 
 
 
@@ -271,6 +275,15 @@ RainMamba achieved state-of-the-art on four video deraining datasets.
 
 </details>
 
+<details>
+<summary><strong> NTURain dataset</strong> (click to expand)</summary>
+  
+| Method  | MSCSC | J4RNet | SPAC | FCRNet | SLDNet | MPRNet | S2VD | ESTINet | Ours |
+|---------|-------|--------|------|--------|--------|--------|------|---------|------|
+| **PSNR**$\uparrow$ | 27.31  | 32.14 | 33.11 | 36.05 | 34.89 | 36.11 | 37.37 | 37.48  | **37.87** |
+| **SSIM**$\uparrow$ | 0.7870 | 0.9480 | 0.9474 | 0.9676 | 0.9540 | 0.9637 | 0.9683 | 0.9700  | **0.9738** |
+
+</details>
 
 ### Qualitative comparisons
 
@@ -313,10 +326,10 @@ RainMamba achieved state-of-the-art on four video deraining datasets.
 If you find this repository helpful to your research, please consider citing the following:
 ```
 @article{wu2024rainmamba,
-  title = {RainMamba: Enhanced Locality Learning with State Space Models for Video Deraining},
-  author = {Hongtao Wu and Yijun Yang and Huihui Xu and Weiming Wang and Jinni Zhou and Lei Zhu},
+  title={RainMamba: Enhanced Locality Learning with State Space Models for Video Deraining},
+  author={Wu, Hongtao and Yang, Yijun and Xu, Huihui and Wang, Weiming and Zhou, Jinni and Zhu, Lei},
   journal={arXiv preprint arXiv:2407.21773},
-  year = {2024},
+  year={2024}
 }
 ```
 If you have any questions or suggestion about our project, please feel free to contact us by email at hwu375@connect.hkust-gz.edu.cn.
