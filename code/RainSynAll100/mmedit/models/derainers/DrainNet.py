@@ -278,7 +278,7 @@ def test_video(lq, model, hilbert_curve_large_scale, hilbert_curve_small_scale):
         '''test the video as a whole or as clips (divided temporally). '''
 
 
-        tile = [5, 256, 256]
+        tile = [5, 128, 128]
         tile_overlap = [1, 4, 4]
         scale = 1
         window_size = [2, 8, 8]
@@ -327,7 +327,7 @@ def test_video(lq, model, hilbert_curve_large_scale, hilbert_curve_small_scale):
 def test_clip(lq, model, hilbert_curve_large_scale, hilbert_curve_small_scale):
     ''' test the clip as a whole or as patches. '''
 
-    tile = [5, 256, 256]
+    tile = [5, 128, 128]
     tile_overlap = [1, 4, 4]
     scale = 1
     window_size = [2, 8, 8]
