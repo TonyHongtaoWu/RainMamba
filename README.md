@@ -33,6 +33,7 @@ If you like this work, please give us a star ⭐ on GitHub.
 ### • Spatio-temporal scanning mechanisms
 
 ![image](./img/twoscans.gif)
+![image](./img/scans.png)
 
 ### • Model efficiency and effectiveness
 
@@ -313,9 +314,9 @@ RainMamba achieved state-of-the-art on four video deraining datasets.
 | **NTURain**| [Google Drive](https://drive.google.com/file/d/1Yt_0k_OVrBkC1n_F8SeOz_9V160o9UOc/view?usp=sharing)                 | [OneDrive](https://hkustgz-my.sharepoint.com/:f:/g/personal/hwu375_connect_hkust-gz_edu_cn/ElAZl-2NbL5InoSvTd-hUygBm7maZTEB7tqA76jKI1pLew?e=rBIlhf)                 |
 
 
+### Real-world visual results
 
-
-
+https://private-user-images.githubusercontent.com/141260395/365448327-36b19ed6-5f54-42cd-ba6c-49c1d0ad7328.mp4
 
 
 
