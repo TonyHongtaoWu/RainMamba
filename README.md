@@ -1,3 +1,4 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-truncated-causal-history-model-for/video-deraining-on-vrds)](https://paperswithcode.com/sota/video-deraining-on-vrds?metric=PSNR)
 
 <div align="center">
   <h1> :umbrella: RainMamba [ACM MM'24 Oral] </h1>
@@ -13,6 +14,8 @@
 
 
 This repository is the official implementation of the paper titled '[RainMamba: Enhanced Locality Learning with State Space Models for Video Deraining](https://arxiv.org/abs/2407.21773)'. 
+
+RainMamba achieves state-of-the-art results on multiple video deraining benchmarks with 3D Hilbert scanning mechanism, offering superior computational efficiency and enhanced restoration quality.
 
 If you like this work, please give us a star ⭐ on GitHub.
 
