@@ -1,4 +1,5 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-truncated-causal-history-model-for/video-deraining-on-vrds)](https://paperswithcode.com/sota/video-deraining-on-vrds?metric=PSNR)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rainmamba-enhanced-locality-learning-with-2/video-deraining-on-video-waterdrop-removal)](https://paperswithcode.com/sota/video-deraining-on-video-waterdrop-removal?p=rainmamba-enhanced-locality-learning-with-2)
 
 <div align="center">
   <h1> :umbrella: RainMamba [ACM MM'24 Oral] </h1>
