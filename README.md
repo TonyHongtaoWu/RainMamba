@@ -216,7 +216,18 @@ cd code/RainSynAll100
 CUDA_VISIBLE_DEVICES=0 bash ./tools/dist_test.sh configs/derainers/RainMamba/RainSynAll100.py "RainSynAll100.pth" 1 --save-path '../results/RainSynAll100/'
 ```
 
+**5️⃣ Demo code for video** 
 
+You can use the following commands to test a rainy video. This code can be used to test a video or a folder of frames.
+
+```shell
+cd code/VRDS
+python demo/restoration_video_demo.py \
+configs/derainers/RainMamba/VRDS.py \
+"VRDS.pth" \
+input/rainy.mp4 \
+output/derained.mp4 
+```
 
 
 <h2 id="results">📊 Results</h2>
