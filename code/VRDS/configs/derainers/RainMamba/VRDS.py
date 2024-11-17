@@ -15,6 +15,18 @@ test_cfg = dict(metrics=['PSNR'], crop_border=0)
 train_dataset_type = 'SRFolderMultipleGTDataset'
 val_dataset_type = 'SRFolderMultipleGTDataset'
 
+demo_pipeline = [
+    dict(type='GenerateSegmentIndices', start_idx=0, interval_list=[1]),
+    dict(
+        type='LoadImageFromFileList',
+        io_backend='disk',
+        key='lq',
+        channel_order='rgb'),
+    dict(type='RescaleToZeroOne', keys=['lq']),
+    dict(type='FramesToTensor', keys=['lq']),
+    dict(type='Collect', keys=['lq'], meta_keys=['lq_path', 'key'])
+]
+
 data = dict(
     workers_per_gpu=6,
     train_dataloader=dict(samples_per_gpu=2, drop_last=True),
