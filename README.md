@@ -85,7 +85,7 @@ conda install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=
 Install MMCV with [MIM](https://github.com/open-mmlab/mim).
 
 ```shell
-pip3 install openmim timm
+pip3 install openmim timm 
 mim install mmcv-full==1.7.2
 ```
 
@@ -107,6 +107,8 @@ Install Bi-Mamba layer
 #### Install causal-conv1d
 
 ```bash
+pip install ninja==1.11.1.1
+
 cd causal-conv1d
 
 python setup.py install
@@ -346,6 +348,16 @@ If you find this repository helpful to your research, please consider citing the
   author={Wu, Hongtao and Yang, Yijun and Xu, Huihui and Wang, Weiming and Zhou, Jinni and Zhu, Lei},
   journal={arXiv preprint arXiv:2407.21773},
   year={2024}
+}
+```
+
+```
+@inproceedings{wu2024rainmamba,
+author = {Wu, Hongtao and Yang, Yijun and Xu, Huihui and Wang, Weiming and Zhou, Jinni and Zhu, Lei},
+title = {RainMamba: Enhanced Locality Learning with State Space Models for Video Deraining},
+year = {2024},
+booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+pages = {7881–7890}
 }
 ```
 If you have any questions or suggestion about our project, please feel free to contact us by email at hwu375@connect.hkust-gz.edu.cn.
