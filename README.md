@@ -90,7 +90,7 @@ mim install mmcv-full==1.7.2
 ```
 
 **3️⃣**
-Install RainMamba from source.
+Install RainMamba from source. Due to the different formats of the datasets, the following operations need to be performed before running the corresponding code for each dataset. Take the VRDS dataset as an example.
 
 ```shell
 git clone https://github.com/TonyHongtaoWu/RainMamba.git
@@ -342,14 +342,6 @@ https://private-user-images.githubusercontent.com/141260395/365448327-36b19ed6-5
 <h2 id="citation">🎓 Citation</h2>
 
 If you find this repository helpful to your research, please consider citing the following:
-```
-@article{wu2024rainmamba,
-  title={RainMamba: Enhanced Locality Learning with State Space Models for Video Deraining},
-  author={Wu, Hongtao and Yang, Yijun and Xu, Huihui and Wang, Weiming and Zhou, Jinni and Zhu, Lei},
-  journal={arXiv preprint arXiv:2407.21773},
-  year={2024}
-}
-```
 
 ```
 @inproceedings{wu2024rainmamba,
