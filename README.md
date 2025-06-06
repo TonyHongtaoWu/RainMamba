@@ -46,6 +46,7 @@ If you like this work, please give us a star ⭐ on GitHub.
 
 
 ## 📧 News
+- **Jun. 7, 2025:** RainMamba is selected as a poster in VALSE 2025 :star2:
 - **Jul. 30, 2024:** Codes of RainMamba (including the training, testing code, pretrained model and results of four video deraining datasets) are released :koala:
 - **Jul. 21, 2024:** RainMamba is accepted with high scores (AR: 5.5) and selected as an Oral presentation  (3.97%) :tada:
 - **Apr. 14, 2024:** RainMamba is submitted to ACM MM 2024 :kangaroo:
